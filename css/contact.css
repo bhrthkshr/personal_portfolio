@@ -1,0 +1,24 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #dfdfdf !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #dfdfdf !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #dfdfdf !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #dfdfdf !important;
+}
+
+input,
+textarea {
+  outline: none !important;
+  background: transparent !important;
+  border: 0px solid #000 !important;
+  border-bottom: 1px solid #fff !important;
+  color: #fff !important;
+}
+*:focus{
+border: 0px solid #fff !important;
+}
